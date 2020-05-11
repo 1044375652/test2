@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "https://github.com/1044375652/test2.git",
   "author": "andy <1044375652@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
